@@ -1,0 +1,13 @@
+name: hello world
+description: just for test
+
+nodes:
+  csv_to_json: CSVToJSONConverter('test_data/data.csv', 'test_data/data.json')
+  rule1: Character
+  rule2: EndWithTerminal
+  chain1: Chain(csv_to_json, rule1)
+  chain2: Chain(csv_to_json, rule2)
+  score: Comprehensive()
+
+loader: CSV('test_data/data.csv')
+processor: Chain(Aggregate(chain1, chain2, max_workers=2), score, Print())

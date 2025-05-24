@@ -1,0 +1,11 @@
+# 基本依赖
+zhconv
+PyYAML==6.0.1
+
+# Wiki XML文件处理
+lxml
+xmltodict==0.13.0
+
+# 其他
+requests
+pymongo==3.11.1

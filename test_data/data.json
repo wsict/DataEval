@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "data": "2\\t\\\"sdfsdf123)(__+hello world__□__/",
+    "des": "YData Quality GitHub Repository"
+  },
+  {
+    "id": 2,
+    "data": "2\\t\\\"sdfsdf123)(__+hello world___/",
+    "des": "Invalid data with special characters"
+  },
+  {
+    "id": 3,
+    "data": "2\\t\\\"sdfsdf123)(__+hello world___/",
+    "des": "Invalid data with special characters"
+  }
+]
